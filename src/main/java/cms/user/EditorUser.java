@@ -5,22 +5,6 @@ public class EditorUser extends User{
 		super(id, nome, email, password);
 	}
 
-	public int getId() {
-		return id;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public boolean checkPassword(String p) {
-		return password.equals(p);
-	}
-
 	public void editContent(int contentId, String body) {
 		/* exclusivo do editor */ }
 }
