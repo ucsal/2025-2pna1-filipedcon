@@ -1,16 +1,8 @@
 package cms.user;
 
-public class EditorUser {
-	private final int id;
-	private final String nome;
-	private final String email;
-	private final String password;
-
+public class EditorUser extends User{
 	public EditorUser(int id, String nome, String email, String password) {
-		this.id = id;
-		this.nome = nome;
-		this.email = email;
-		this.password = password;
+		super(id, nome, email, password);
 	}
 
 	public int getId() {
