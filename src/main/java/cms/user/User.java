@@ -5,7 +5,7 @@ public abstract class User {
 	protected String nome;
 	protected String email;
 	protected String password;
-	// teste
+	
 	public User(int id, String nome, String email, String password) {
 		this.id = id;
 		this.nome = nome;
